@@ -5,7 +5,7 @@
     "description": "https://github.com/limuran/resume-hehe",
     "main": "index.js",
     "scripts": {
-        "start":"webpack-dev-server --open --hot --config webpack.config.js"
+        "start":"webpack-dev-server --open --hot --color --config webpack.config.js"
     },
     "devDependencies": {
         "autoprefixer": "^7.1.2",
@@ -19,5 +19,9 @@
         "web-webpack-plugin": "^1.9.3",
         "webpack": "^3.5.5",
         "webpack-dev-server": "^2.7.1"
+    },
+    "dependencies": {
+        "clean-webpack-plugin": "^0.1.18",
+        "html-webpack-plugin": "^2.30.1"
     }
 }
